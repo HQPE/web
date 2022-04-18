@@ -1,0 +1,221 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+}
+#hizala{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+#solkisim{
+    width: 30%;
+    height: 50px;
+    float: left;
+}
+#solkisim a{
+    color: #c8BABe;
+    text-decoration: none;
+    font-size: 10px;
+}
+#solkisim h1{
+    padding: 0;
+    margin: 0%;
+}
+#solkisim p{
+    padding: 0;
+    margin: 0%;
+    font-size: 10px;
+    color: #c8BABe;
+
+}
+#sagkisim{
+    width: 70%;
+    height: 50px;
+    float:left;
+}
+nav{
+    float: right;
+    padding-top: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    background-color:#232323;
+    padding: 5px 20px;
+    float: left;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+   color: red;
+}
+
+
+
+
+main{
+    border: 1px solid black;
+    width: 100%;
+    height: 750px;
+}
+
+#hizalaTwo{
+    width: 75%;
+    height: 1000px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+#sectionOne{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    
+}
+#sectionTwo{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 250px;
+    padding-top: 20px ;
+}
+
+
+
+
+
+#box{
+    border: 1px solid black;
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-left: 17px;
+}
+.cerceve{
+    border: 2px solid black;
+    width: 100%;
+    height: 180px;
+    padding: 2px;
+}
+.resim{
+    background-color: #232323;
+    width: 100%;
+    height: 100px;
+    padding-top: 60px;
+}
+#box h4{
+    padding: 0;
+    margin: 0;
+    margin-top: 12px;
+}
+#box p{
+    font-size: 10px;
+}
+
+
+
+
+
+#sectionThree{
+    width: 100%;
+    height: 200px;
+}
+#partone{
+    border: 1px black;
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+#partone p{
+font-size: 10px;
+}
+
+
+#partwo{
+    border: 2px black;
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding: 2px;
+
+}
+#resimTwo{
+    background-color: #232323;
+    width: 100%;
+    height: 195px;
+}
+
+footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    background-color: #333333;
+}
+#part{
+  
+    width: 33%;
+    height: 200px;
+    float: left;
+}
+#part h2{
+    color: white;
+}
+#part ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#part li{
+    margin-top: 6px;
+    color: white;
+}
+#part a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#iconOne{
+    
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 15px;
+    background-image: url(img/facebook.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#iconOne:hover{
+    background-image: url(img/facebookHover.png);
+}
+#iconTwo{
+
+    width: 70px;
+    height: 70px;
+    float: left;
+    background-image: url(img/instagram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#iconTwo:hover{
+    background-image: url(img/instagramHover.png);
+}
